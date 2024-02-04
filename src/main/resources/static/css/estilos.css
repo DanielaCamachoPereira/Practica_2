@@ -10,7 +10,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
 body{
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: serif;
     padding: 90px 20px 0;
-    background-image: url (img/patronCamp.jpg);
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.izqDiv{
+    margin-left: 0;
+    background-color: grey;
+    color: blue;
 }

@@ -12,8 +12,34 @@ body{
     box-sizing: border-box;
     font-family: serif;
     padding: 90px 20px 0;
-    background-color: grey;
+    background-image: url('https://img.freepik.com/vector-premium/patron-inconvenientes-elementos-camping-vectoriales-estilo-garabato-tu-diseno_657899-517.jpg');
+    flex-direction: row;
 }
+
+.sections-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoTienda{
+    text-align: center;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.content-container {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
 
 h1{
     text-align: center;
@@ -21,8 +47,48 @@ h1{
     color: white;
 }
 
-.izqDiv{
-    margin-left: 0;
+h2{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: black;
+}
+
+h4{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+header{
+    width: 100%;
+    display: block;
+    text-align: center;
     background-color: grey;
     color: blue;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    color: blue;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
 }
